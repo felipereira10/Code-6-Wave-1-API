@@ -16,12 +16,11 @@ Grupo destinado ao desenvolvimento da API 1° semestre, do curso de Análise e D
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 #### Time Scrum
 
-Produt owner: Felipe Pereira 
+Função        | Membro         | Istagran | Linkedin 
+--------------|----------------|----------|-------------:
+Product Owner | Felipe Pereira |
+Scrum Master  | Allan Cristian |
+Desenvolvedor | Gabriel Felipe |
+Desenvolvedor | Fábio Eyke |
+Desenvolvedor |  Paulo Afonso |
 
-Scrum Master: Allan Cristian
-
-Desenvolvedor: Gabriel Felipe
-
-Desenvolvedor: Fábio Eyke
-
-Desenvolvedor: Paulo Afonso
