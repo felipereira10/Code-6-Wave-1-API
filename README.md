@@ -1,4 +1,5 @@
-# -Code-6-Wave-
+![Capturar](https://user-images.githubusercontent.com/126684518/229306726-e920a8e2-c624-4b0f-b85f-da1fb9b3909e.PNG)
+
 Grupo destinado ao desenvolvimento da API 1° semestre, do curso de Análise e Desenvolvimento de Sistemas
 
 ## Objetivo do Projeto
