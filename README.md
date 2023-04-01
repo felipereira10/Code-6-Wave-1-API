@@ -1,7 +1,10 @@
 # -Code-6-Wave-
 Grupo destinado ao desenvolvimento da API 1° semestre, do curso de Análise e Desenvolvimento de Sistemas
 
-### Tecnologias Utilizadas
+## Objetivo do Projeto
+Desenvolver um sistema web que mostre todos os processos da metodologia Scrum
+
+## Tecnologias Utilizadas
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
