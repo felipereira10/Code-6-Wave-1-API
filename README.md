@@ -2,8 +2,7 @@
 Grupo destinado ao desenvolvimento da API 1° semestre, do curso de Análise e Desenvolvimento de Sistemas
 
 ## Objetivo do Projeto
-O ob
-jetivo deste Projeto é a criação de um web site que apresente todos os processos e artefatos da metodologia Scrum com conceitos e fundamentos e referências.
+O objetivo deste Projeto é a criação de um web site que apresente todos os processos e artefatos da metodologia Scrum com conceitos e fundamentos e referências.
 Para isso a equipe deve seguir os seguintes requisitos:
 |Requisitos Funcionais 
 :-----------
