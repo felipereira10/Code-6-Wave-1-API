@@ -1,4 +1,4 @@
-![Capturar-removebg-preview](https://user-images.githubusercontent.com/126684518/229306964-0eda8c01-29d0-4d1e-a81e-527f1f7f4066.png)
+![Capturar-removebg-preview (2)](https://user-images.githubusercontent.com/126684518/229307501-9b2a0ddb-8fc7-492e-877c-ccb4cbb66eb6.png)
 
 
 Grupo destinado ao desenvolvimento da API 1° semestre, do curso de Análise e Desenvolvimento de Sistemas
