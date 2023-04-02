@@ -6,30 +6,17 @@ Grupo destinado ao desenvolvimento da API 1° semestre, do curso de Análise e D
 ## Objetivo do Projeto
 O objetivo deste Projeto é a criação de um web site que apresente todos os processos e artefatos da metodologia Scrum, com conceitos e fundamentos e referências.
 Para isso a equipe deve seguir os seguintes requisitos:
-|Requisitos Funcionais 
-:-----------
-|Linguagem Python (Requisito Fatec)
-Linguagem HTML e CSS (Requisito Fatec)
-Uso do framework Bootstrap
-Apresentação via Github.• O sistema web deverá ser intuitivo e não ter poluições de informações, isso deverá ser
-uma preocupação constante dos desenvolvedores sugestões de controles serão bemvindas e bem avaliadas.
-Criar um sistema de avaliação (Processo, Produto e Conhecimento em disciplina, SM., PO.,
-TD)
-Processo Scrum
-Burndown
-Product Backlog
-Sprint
-Sprint Planning
-Sprint Review
-Sprint Backlog
-Dailys
-Retrospective
- DOR – Definition of Ready
-DOD – Definition of Done
-Planning Poker
-Kanban
-Artefatos do Scrum
-MVP|
+| Requisitos Funcionais | Descrição |
+| --- | --- |
+| Linguagem Python | O sistema web deve ser desenvolvido utilizando a linguagem Python, que é um requisito da Fatec. |
+| Linguagem HTML e CSS | A interface do sistema web deve ser criada utilizando as linguagens HTML e CSS, que também são requisitos da Fatec. |
+| Framework Bootstrap | O framework Bootstrap deve ser utilizado para criar um design responsivo e estiloso para o sistema web. |
+| Apresentação via Github | O sistema web deve ser apresentado por meio do Github. |
+| Intuitivo e sem poluição de informações | O sistema web deve ser intuitivo e não ter poluição de informações. Os desenvolvedores devem ter como preocupação constante manter a interface limpa e organizada. Sugestões de controles serão bem-vindas e avaliadas. |
+| Sistema de avaliação | Deve ser criado um sistema de avaliação que contemple avaliação de processo, produto e conhecimento em disciplina, SM, PO e TD. |
+| Processos do Scrum | Todos os processos do Scrum devem ser implementados, incluindo o burndown, o product backlog, a sprint, o sprint planning, o sprint review, o sprint backlog, o daily scrum, a retrospective, a DOR (Definition of Ready), a DOD (Definition of Done), o planning poker e o Kanban. |
+| Artefatos do Scrum | Todos os artefatos do Scrum devem ser incluídos, incluindo o MVP (Minimum Viable Product). |
+
 
 |Requisitos Não Funcionais
 :-----------------
