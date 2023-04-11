@@ -48,7 +48,7 @@ Desenvolvedor | Gabriel Feliphe |[![Github](https://img.shields.io/badge/GitHub-
 Desenvolvedor | Fabio Eyki |![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)| ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 Desenvolvedor |  Paulo Afonso |[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PauloCruz34) | [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-afonso-cruz-304256174/)
 Desenvolvedor |  Victória Hypsea |![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) | ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
-
-![](.gif)
+## Primeiro Protótipo
+![(.gif)](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/SITE%20SCRUM%20GIF%20(1).gif)
 
 
