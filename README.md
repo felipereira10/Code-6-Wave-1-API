@@ -55,6 +55,6 @@ Desenvolvedor |  Victória Hypsea |![Github](https://img.shields.io/badge/GitHub
 ## Primeiro Protótipo
 ![(.gif)](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/SITE%20SCRUM%20GIF%20(1).gif)
 
-https://www.figma.com/proto/khqF1ZqxVkNs4CI6BBTncZ/Scrum?node-id=0-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=171%3A12
+
 
 
