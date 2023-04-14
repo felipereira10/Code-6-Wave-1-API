@@ -1,15 +1,55 @@
+
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
+
+    background: #2f363e;
+}
+.container{
+   
+    margin: 0 auto;
+    max-width: 100%;
+    border: 1px solid red;
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #2f363e;
+    position: relative;
+    padding-top: 50px;
+}
+
+.menu-horizontal{
+    list-style-type: none; 
+    padding: 0;
+    background-color: #a0bacc;
+    
+  
+   
+}
+
+.menu-horizontal li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.menu-horizontal li a {
+    color: black ;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    display: inline; 
+    
+  
+    
+
+}
+.menu-horizontal li a:hover{
+    color: azure;
 }
 
 .menu{
