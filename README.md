@@ -21,7 +21,7 @@ Para isso a equipe deve seguir os seguintes requisitos:
 |Requisitos Não Funcionais
 :-----------------
 Documentação via Github
-Linguagem de programação Python, framework Flask.
+Linguagem de programação Python,Javascrip e Microframework Flask.
 Linguagem de marcação HTML e CSS.
 
 
