@@ -47,7 +47,7 @@ Scrum Master  | Allan Cristian |[![Github](https://img.shields.io/badge/GitHub-1
 Desenvolvedor | Gabriel Feliphe |[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]( https://github.com/FelipheGin)|  [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-santos-350249184/)
 Desenvolvedor | Fabio Eyki |![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)| ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 Desenvolvedor |  Paulo Afonso |[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PauloCruz34) | [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-afonso-cruz-304256174/)
-Desenvolvedor |  Victória Hypsea |![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) | ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
+
 ## Product Backlog
 
 ![backlog](https://user-images.githubusercontent.com/126684223/231456961-10165d6b-92dc-4a9f-938e-648ba3d91262.jpeg)
