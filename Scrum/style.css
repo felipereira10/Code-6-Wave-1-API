@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Luckiest+Guy&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Francois One', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+body
+{
+    overflow-x: hidden;
+    background: #fff;
+    min-height: 100vh;
+}
+#header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    z-index: 10000;
+}
+#header .logo
+{
+    color: #143887;
+    font-weight: 700;
+    font-size: 2en;
+    text-decoration: none;
+    text-shadow: 
+        -1.5px -1.5px 0px #fff, 
+        -1.5px 1.5px 0px #fff,      
+        1.5px -1.5px 0px #fff,    
+        1.5px 0px 0px #fff;
+}
+#header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+#header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color:#143887;
+    border-radius: 20px;
+}
+#header ul li a:hover,
+#header ul li a.active
+{
+    background: #143887;
+    color: #fff;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #08a6c5,transparent);
+    z-index: 10;
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+section #text
+{
+    position: absolute;
+    color: #00032a;
+    font-size: 10vw;
+    text-align: center;
+    line-height: 0.55em;
+    font-family: 'Rancho', cursive;
+    transform: translateY(-50%);
+    z-index: 10000;
+    text-shadow: 
+             -3px -3px 0px #fff, 
+             -3px 3px 0px #fff,      
+              3px -3px 0px #fff,    
+              3px 0px 0px #fff;
+    animation: fadeIn;
+    animation-duration: 1.5s;
+}
+section #text span
+{
+    font-size: 0.20em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    
+}
+#btn
+{
+ 
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    background: #00032a;
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    transform: translateY(100px);
+    position: center;
+    animation: fadeIn;
+    animation-duration: 3s;
+    
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    background-color: #08a6c5;
+    position: center;
+    text-align: center;
+    text-shadow: 
+    -1.5px -1.5px 0px #000, 
+    -1.5px 1.5px 0px #000,      
+    1.5px -1.5px 0px #000,    
+    1.5px 0px 0px #000;
+    
+}
+.sec h2{
+    font-size: 3.5em;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.sec p{
+    font-size: 2em;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#agua{
+
+}
+.comofunciona{
+    font-size: 2em;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#flutue{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    background: #00032a;
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    transform: translateY(100px);
+    position: center;
+}
+body.geral{
+    background: linear-gradient(100deg, #b0e8fb, #bdccfc);
+    
+}
+.secgeral{
+    position: relative;
+    padding: 100px;
+    position: center;
+    text-align: center;
+    text-shadow: 
+    -1.5px -1.5px 0px #000, 
+    -1.5px 1.5px 0px #000,      
+    1.5px -1.5px 0px #000,    
+    1.5px 0px 0px #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.secgeral h2{
+    font-size: 3.5em;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.secgeral p{
+    font-size: 2em;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#btngeral
+{
+ 
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    background: #00032a;
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    transform: translateY(100px);
+    position: relative;
+}
