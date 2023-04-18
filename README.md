@@ -50,7 +50,7 @@ Desenvolvedor |  Paulo Afonso |[![Github](https://img.shields.io/badge/GitHub-10
 
 ## Product Backlog
 
-![backlog](https://user-images.githubusercontent.com/126684223/231456961-10165d6b-92dc-4a9f-938e-648ba3d91262.jpeg)
+[![backlog](https://user-images.githubusercontent.com/126684223/231456961-10165d6b-92dc-4a9f-938e-648ba3d91262.jpeg)](https://github.com/felipereira10/API-Code-6-Wave-/issues/5#issuecomment-1513012206)
 
 ## Primeiro Protótipo
 ![(.gif)](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/SITE%20SCRUM%20GIF%20(1).gif)
