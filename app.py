@@ -1,4 +1,4 @@
-from flask import  Flask , render_template
+from flask import Flask, render_template
 
 
 app = Flask("__name__") #""" cria uma instnância dessa classe """
@@ -23,6 +23,4 @@ def download():
 def ferramenta():
     return render_template ("/ferramentas.html")
 
-@app.route("/Oqueé")          
-def oqueé():
-    return render_template ("/indez.html #oqueé")
+ 
