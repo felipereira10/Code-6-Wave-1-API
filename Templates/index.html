@@ -1,53 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Luckiest+Guy&display=swap" rel="stylesheet">
 
- {% extends 'base.html'%}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
- {% block title %}
-  Home
- {% endblock %}
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/normalize.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <header id="header">
+        
+        <a href="#" class="logo">Easy Scrum</a>
+        <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/Oqueé">O que é?</a></li>
+            <li><a href="/Equipe">Equipe Scrum</a></li>
+            <li><a href="/Pilares">Pilares</a></li>
+            <li><a href="/Ferramentas">Ferramentas</a></li>
+            <li><a href="/Downloads">Downloads</a></li>
 
- {% block corpo %}
+        </ul>
+    </header>
+    <section>
+        <h2 id="text"><span>Metodologia</span><br><a>Scrum</a></h2>
+        <img src="../static/imagens/agua.jpg" id="agua" alt="aguafundo">
+        <a href="#Oqueé" id="btn"><ion-icon name="arrow-down-outline"></ion-icon>Navegue pelo Conhecimento<ion-icon name="arrow-down-outline"></ion-icon></a>
+    </section>
+    <div class="sec">
+        <h2 id="Oqueé">O que é?</h2>
+        <br><br>
+        <p>O Scrum é uma metodologia que engloba um conjunto de ações visando
+            um melhor funcionamento de todo o projeto, resultando em uma
+            significativa melhora em seus recursos e tempos, produzindo mais em
+            menos tempo, diminuindo assim o seu custo! </p>
+            
+            <br><br><br><br><br><br>
 
-
-<div class="container">
-
-
-    <ul class="menu">
-        <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
-
-        <li style="--i:0;--clr:#ff2972;">
-            <a href="index.html"><ion-icon name="home-outline"></ion-icon></a>
-        </li>
-        <li style="--i:1;--clr:#ff00ea;">
-            <a href="acessos_menu/contato.html"><ion-icon name="person-outline"></ion-icon></a>
-        </li>
-        <li style="--i:2;--clr:#29ff4d;">
-            <a href="acessos_menu/configurações.html"><ion-icon name="settings-outline"></ion-icon></a>
-        </li>
-        <li style="--i:3;--clr:#ff2929;">
-            <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
-        </li>
-        <li style="--i:4;--clr:#01eeff;">
-            <a href="#"><ion-icon name="extension-puzzle-outline"></ion-icon></a>
-        </li>
-        <li style="--i:5;--clr:#003cff;">
-            <a href="#"><ion-icon name="videocam-outline"></ion-icon></a>
-        </li>
-        <li style="--i:6;--clr:#ffa600;">
-            <a href="#"><ion-icon name="accessibility-outline"></ion-icon></a>
-        </li>
-        <li style="--i:7;--clr:#e5ff00;">
-            <a href="acessos_menu/video.html"><ion-icon name="camera-outline"></ion-icon></a>
-        </li>
-    </ul>
-
+            <h2>Como Funciona?</h2><br><br><p>Sua aplicação em 4 etapas:
+                <ul class="comofunciona">
+                    <br>
+                    <li>
+                    O Produto Owner informa a todos tudo sobre o projeto, explicando
+                    assim a visão do projeto e criando um documento com a definição
+                    de pronto!
+                    </li>
+                    <br>
+                    <li>
+                    2- Com as ações detalhadas, o Product Backlog é definido pelas ordens
+                    de prioridades do projeto, sendo sempre atualizável e monitorado!
+                    </li>
+                    <br>
+                    <li>
+                    3- As varias etapas do processo são divididas dentro das Sprints
+                    criadas, cada Sprint tem seu planejamento próprio, para que sejam
+                    inspecionadas e concluídas por todo o time!
+                    </li>
+                    <br>
+                    <li>
+                    4- Através de Daily Scrums que são pequenas reuniões diárias o time
+                    está sempre atualizado sobre a situação real do projeto, permitindo
+                    assim que correções sejam aplicadas caso necessárias!
+                    </li>
+            </ul>
+            </p>
+            
+            <a href="equipe.html" id="btn"><ion-icon name="arrow-forward-outline"></ion-icon>Flutue para a Equipe<ion-icon name="arrow-forward-outline"></ion-icon></a>
+            <br><br><br><br><br><br><br><br>
+            <img src="imagens/funcoes.png" alt="equipe">
+    </div>
+    
+    
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-	<script>
-        let toggle = document.querySelector('.toggle');
-        let menu = document.querySelector('.menu');
-        toggle.onclick = function(){
-            menu.classList.toggle('active');
-        }
-    </script>
-</div>
-{% endblock %}   
+    
+
+</body>
+</html>

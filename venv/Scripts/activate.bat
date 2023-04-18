@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\paulo\OneDrive\Documentos\GitHub\-Code-6-Wave-\venv
+set VIRTUAL_ENV=C:\Users\Fatec\Documents\GitHub\API-Code-6-Wave-\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

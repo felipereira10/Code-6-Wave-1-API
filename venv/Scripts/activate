@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\paulo\OneDrive\Documentos\GitHub\-Code-6-Wave-\venv"
+VIRTUAL_ENV="C:\Users\Fatec\Documents\GitHub\API-Code-6-Wave-\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
