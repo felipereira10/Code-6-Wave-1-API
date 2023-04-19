@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="../static/css/styleroleta.css">
+<div class="container">
+
+
+    <ul class="menu">
+        <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
+
+        <li style="--i:0;--clr:#0077ff;">
+            <a href="index.html">BACKLOG</ion-icon></a>
+        </li>
+        <li style="--i:1;--clr:#0077ff;">
+            <a href="acessos_menu/contato.html">SPRINT BACKLOG</ion-icon></a>
+        </li>
+        <li style="--i:2;--clr:#0077ff;">
+            <a href="acessos_menu/configurações.html">BURNDOWN</ion-icon></a>
+        </li>
+        <li style="--i:3;--clr:#0077ff;">
+            <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+        </li>
+        <li style="--i:4;--clr:#0077ff;">
+            <a href="#"><ion-icon name="extension-puzzle-outline"></ion-icon></a>
+        </li>
+        <li style="--i:5;--clr:#0077ff;">
+            <a href="#"><ion-icon name="videocam-outline"></ion-icon></a>
+        </li>
+        <li style="--i:6;--clr:#0077ff;">
+            <a href="#"><ion-icon name="accessibility-outline"></ion-icon></a>
+        </li>
+        <li style="--i:7;--clr:#0077ff;">
+            <a href="acessos_menu/video.html"><ion-icon name="camera-outline"></ion-icon></a>
+        </li>
+    </ul>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick = function(){
+            menu.classList.toggle('active');
+        }
+    </script>
+</div>
