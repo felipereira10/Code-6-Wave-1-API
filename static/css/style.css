@@ -140,7 +140,7 @@ section #text span
 .sec{
     position: relative;
     padding: 100px;
-    background-color: #08a6c5;
+    background: linear-gradient(0deg, #045474, #08a6c5);
     position: center;
     text-align: center;
     text-shadow: 
