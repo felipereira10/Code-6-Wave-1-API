@@ -49,7 +49,7 @@ Desenvolvedor | Fabio Eyki |![Github](https://img.shields.io/badge/GitHub-100000
 Desenvolvedor |  Paulo Afonso |[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PauloCruz34) | [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-afonso-cruz-304256174/)
 
 ## Product Backlog
-![image](https://user-images.githubusercontent.com/126419915/234005984-5df80eba-0028-4cdf-aec9-37e23b4eb705.png)
+![image](https://user-images.githubusercontent.com/126419915/234010823-037075c4-618e-4aa3-a46c-27949a0ad84d.png)
 
 
 
