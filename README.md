@@ -49,8 +49,9 @@ Desenvolvedor | Fabio Eyki |![Github](https://img.shields.io/badge/GitHub-100000
 Desenvolvedor |  Paulo Afonso |[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PauloCruz34) | [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-afonso-cruz-304256174/)
 
 ## Product Backlog
+![image](https://user-images.githubusercontent.com/126419915/234010823-037075c4-618e-4aa3-a46c-27949a0ad84d.png)
 
-[![backlog](https://user-images.githubusercontent.com/126684223/231456961-10165d6b-92dc-4a9f-938e-648ba3d91262.jpeg)](https://github.com/felipereira10/API-Code-6-Wave-/issues/5#issuecomment-1513012206)](https://github.com/felipereira10/API-Code-6-Wave-/issues/5#issuecomment-1513017127)
+
 
 ## Primeiro Protótipo
 ![(.gif)](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/SITE%20SCRUM%20GIF%20(1).gif)
