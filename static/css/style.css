@@ -23,17 +23,20 @@ body
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 30px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 25px;
     z-index: 10000;
+    background: #bfecff;
+    opacity: 1;
 }
 #header .logo
 {
+    justify-content: right;
     color: #143887;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 2en;
     text-decoration: none;
     text-shadow: 
@@ -66,6 +69,7 @@ body
     background: #143887;
     color: #fff;
 }
+
 section
 {
     position: relative;
@@ -105,10 +109,10 @@ section #text
     transform: translateY(-50%);
     z-index: 10000;
     text-shadow: 
-             -3px -3px 0px #fff, 
-             -3px 3px 0px #fff,      
-              3px -3px 0px #fff,    
-              3px 0px 0px #fff;
+             -2px -2px 0px #fff, 
+             -2px 2px 0px #fff,      
+              2px -2px 0px #fff,    
+              2px 0px 0px #fff;
     animation: fadeIn;
     animation-duration: 1.5s;
 }
@@ -188,7 +192,7 @@ section #text span
     position: center;
 }
 body.geral{
-    background: linear-gradient(100deg, #b0e8fb, #bdccfc);
+    background: linear-gradient(100deg, #fff, #fff);
     
 }
 .sec{
@@ -197,31 +201,31 @@ body.geral{
     position: center;
     text-align: center;
     text-shadow: 
-    -1.5px -1.5px 0px #000, 
-    -1.5px 1.5px 0px #000,      
-    1.5px -1.5px 0px #000,    
-    1.5px 0px 0px #000;
-    margin-left: 10%;
-    margin-right: 10%;
+    -1.5px -1.5px 0px #fff, 
+    -1.5px 1.5px 0px #fff,      
+    1.5px -1.5px 0px #fff,    
+    1.5px 0px 0px #fff;
+    margin-left: 20%;
+    margin-right: 20%;
     
 }
 .sec h2{
     font-size: 3.5em;
-    color: #fff;
+    color: #002D64;
     margin-bottom: 10px;
     margin-left: 10%;
     margin-right: 10%;
 }
 .sec h3{
     font-size: 2.5em;
-    color: #fff;
+    color: #002D64;
     margin-bottom: 10px;
     margin-left: 10%;
     margin-right: 10%;
 }
 .sec p{
     font-size: 2em;
-    color: #fff;
+    color: #002D64;
     margin-left: 10%;
     margin-right: 10%;
 }

@@ -15,9 +15,10 @@
     <title>Home</title>
 </head>
 <body>
-    <header id="header">
+
+    <header id="headerhome">
         
-        <a href="#" class="logo">Easy Scrum</a>
+            <a href="#" class="logo"><ion-icon name="home"></ion-icon>&nbsp&nbspEasy Scrum</a>
         <ul>
             <li><a href="../Templates/index.html" class="active">Home</a></li>
             <li><a href="#Oqueé">O que é?</a></li>
@@ -29,8 +30,9 @@
         </ul>
     </header>
     <section>
-        <h2 id="text"><span>Metodologia</span><br><a>Scrum</a></h2>
         <img src="../static/imagens/agua.jpg" id="agua" alt="aguafundo">
+        <h2 id="text"><span>Metodologia</span><br><a>Scrum</a></h2>
+        
         <a href="#Oqueé" id="btnhome"><ion-icon name="arrow-down-outline"></ion-icon>Navegue pelo Conhecimento<ion-icon name="arrow-down-outline"></ion-icon></a>
     </section>
     <div class="sechome">
@@ -74,7 +76,60 @@
             <br><br><br><br><br><br><br><br>
             <img src="../static/imagens/funcoes.png" alt="equipe">
     </div>
-    
+    <div class=css>
+        <style>
+                #headerhome
+                {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    padding: 30px 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 25px;
+                    z-index: 10000;
+                }
+                #headerhome .logo
+                {
+                    
+                    color: #143887;
+                    font-weight: 500;
+                    font-size: 2en;
+                    text-decoration: none;
+                    text-shadow: 
+                        -1.5px -1.5px 0px #fff, 
+                        -1.5px 1.5px 0px #fff,      
+                        1.5px -1.5px 0px #fff,    
+                        1.5px 0px 0px #fff;
+                }
+                #headerhome ul
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                #headerhome ul li
+                {
+                    list-style: none;
+                    margin-left: 20px;
+                }
+                #headerhome ul li a
+                {
+                    text-decoration: none;
+                    padding: 6px 15px;
+                    color:#143887;
+                    border-radius: 20px;
+                }
+                #headerhome ul li a:hover,
+                #headerhome ul li a.active
+                {
+                    background: #143887;
+                    color: #fff;
+                }
+            </style>
+        </div>
     
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
