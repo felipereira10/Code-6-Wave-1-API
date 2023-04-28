@@ -54,8 +54,12 @@ Desenvolvedor |  Paulo Afonso |[![Github](https://img.shields.io/badge/GitHub-10
 
 
 ## Primeiro Protótipo
-![(.gif)](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/SITE%20SCRUM%20GIF%20(1).gif)
-![(.gif)](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/SITE%20SCRUM%20GIF%202%20(1)%20(1)%20(2)-min.gif)
+
+![.gif](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/SITE%20SCRUM%20GIF%20(1).gif)
+
+## Web site
+
+![.gif](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/SITE%20SCRUM%20GIF%202%20(1)%20(1)%20(2)-min.gif)
 
 
 
