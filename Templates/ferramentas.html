@@ -14,35 +14,51 @@
 </head>
 <body class="geral">
     <header id="header">
-        
-            <a href="#" class="logo"><ion-icon name="home"></ion-icon>&nbsp&nbspEasy Scrum</a>
-        <ul>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="logo" href="#">
+                <ion-icon name="home"></ion-icon>&nbsp&nbspEasy Scrum
+              </a>
+            </div>
+        </nav>
+        <ul class="principal">
             <li><a href="../Templates/index.html">Home</a></li>
             <li><a href="../Templates/index.html#Oqueé">O que é?</a></li>
             <li><a href="../Templates/equipe.html">Equipe Scrum</a></li>
             <li><a href="../Templates/pilares.html">Pilares</a></li>
-            <li><a href="../Templates/ferramentas.html" class="active">Ferramentas</a></li>
+            <li><a href="../Templates/ferramentas.html" class="active">Ferramentas</a>
+                <ul class="submenu">
+                    <li><a href="../Templates/ferramentas.html#artefatos">Artefatos</a></li>
+                    <hr>
+                    <li><a href="../Templates/ferramentas.html#backlog">Backlog do Produto</a></li>
+                    <hr>
+                    <li><a href="../Templates/ferramentas.html#sprintbacklog">Sprint Backlog</a></li>
+                    <hr>
+                    <li><a href="../Templates/ferramentas.html#burndown">Burndown</a></li>
+                </ul>
+            
+            </li>
             <li><a href="../Templates/download.html">Na Prática</a></li>
         </ul>
     </header>
     <br><br><br><br>
     <div class="sec">
-        <div class="artefatos">
+        <div id="artefatos">
         <h2>Artefatos do Scrum</h2>
             <p>
             O Incremento é o resultado do trabalho da equipe Scrum em uma Sprint e deve seguir a Definição de Pronto para se tornar utilizável. A Definição de Pronto garante a qualidade do Incremento e pode ser adaptada de acordo com as necessidades da equipe.</p>
             <img src="../static/imagens/Artefatos.png" alt="artefatos">
-            <br><br><br><br>
+            <br><br><br><br><br><br>
         </div>    
-        <div class="backlog">
+        <div id="backlog">
             <h2>Backlog do produto (Product Backlog)</h2>
             <p>
             O Product Backlog é um conjunto de requisitos para desenvolver um produto, atualizado conforme a demanda do cliente, e gerenciado pelo Product Owner em colaboração com o Scrum Team.
             </p>
             <img src="../static/imagens/backlog2.png" alt="backlog" width="300px"  height=300px>
-            <br><br><br><br>
+            <br><br><br><br><br><br>
         </div>
-        <div class="sprint backlog">
+        <div id="sprintbacklog">
 
             <h2>O que é Sprint Backlog?</h2>
            <p>
@@ -52,14 +68,14 @@
             <h3>Como implementar o Sprint Backlog?</h3>
             <p>O Sprint Backlog é definido em uma reunião de planejamento, essencial, denominada planning. Durante o Sprint, o Scrum Master facilita as entregas, conduz as reuniões e ajuda a equipe a melhorar a produtividade, e o progresso pode ser acompanhado através do gráfico burndown.</p>
             <img src="../static/imagens/Sprint backlog.png" alt="sprint backlog">
-            <br><br><br><br>
+            <br><br><br><br><br><br>
         </div>
-        <div class="burndown">
+        <div id="burndown">
             <h2>O que é Burndown?</h2>
             <p>É um grafico que usa as estimativas de esforço(tempo) feitas para as atividades do Sprint Backlog , por ele pode ser feito o acompanhamento da produtividade no dia a dia.
                 Ele consiste basicamente disso:
-                <br><br>
-                <ul class="comofunciona">
+                <br>
+                <ul>
                     <li>
                     1- O eixo Y (vertical) é o somatório das estimativas de esforço do Sprint;
                     </li>

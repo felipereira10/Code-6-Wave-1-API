@@ -4,6 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -16,19 +17,40 @@
 </head>
 <body>
 
-    <header id="headerhome">
-        
-            <a href="#" class="logo"><ion-icon name="home"></ion-icon>&nbsp&nbspEasy Scrum</a>
-        <ul>
+    <header id="header">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="logo" href="#">
+                <ion-icon name="home"></ion-icon>&nbsp&nbspEasy Scrum
+              </a>
+                    <ul>
+                        <li>
+                            
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+        <ul class="principal">
             <li><a href="../Templates/index.html" class="active">Home</a></li>
-            <li><a href="#Oqueé">O que é?</a></li>
+            <li><a href="../Templates/index.html#Oqueé">O que é?</a></li>
             <li><a href="../Templates/equipe.html">Equipe Scrum</a></li>
             <li><a href="../Templates/pilares.html">Pilares</a></li>
-            <li><a href="../Templates/ferramentas.html">Ferramentas</a></li>
+            <li><a href="../Templates/ferramentas.html">Ferramentas</a>
+                <ul class="submenu">
+                    <li><a href="../Templates/ferramentas.html#artefatos">Artefatos</a></li>
+                    <hr>
+                    <li><a href="../Templates/ferramentas.html#backlog">Backlog do Produto</a></li>
+                    <hr>
+                    <li><a href="../Templates/ferramentas.html#sprintbacklog">Sprint Backlog</a></li>
+                    <hr>
+                    <li><a href="../Templates/ferramentas.html#burndown">Burndown</a></li>
+                </ul>
+            
+            </li>
             <li><a href="../Templates/download.html">Na Prática</a></li>
-
         </ul>
     </header>
+
     <section>
         <img src="../static/imagens/agua.jpg" id="agua" alt="aguafundo">
         <h2 id="text"><span>Metodologia</span><br><a>Scrum</a></h2>

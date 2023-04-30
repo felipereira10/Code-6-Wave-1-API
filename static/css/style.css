@@ -29,7 +29,7 @@ body
     align-items: center;
     font-size: 25px;
     z-index: 10000;
-    background: #bfecff;
+   
     opacity: 1;
 }
 #header .logo
@@ -39,37 +39,55 @@ body
     font-weight: 500;
     font-size: 2en;
     text-decoration: none;
-    text-shadow: 
-        -1.5px -1.5px 0px #fff, 
-        -1.5px 1.5px 0px #fff,      
-        1.5px -1.5px 0px #fff,    
-        1.5px 0px 0px #fff;
 }
-#header ul
+#header ul.principal
 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#header ul li
+#header ul.principal li
 {
     list-style: none;
     margin-left: 20px;
 }
-#header ul li a
+#header ul.principal li a
 {
     text-decoration: none;
     padding: 6px 15px;
     color:#143887;
     border-radius: 20px;
 }
-#header ul li a:hover,
-#header ul li a.active
+#header ul.principal li a:hover,
+#header ul.principal li a.active
 {
     background: #143887;
     color: #fff;
 }
-
+#header ul li ul.submenu li{
+    display: flex;
+}
+#header ul li ul.submenu{
+    width: 13%;
+    background: #143887;
+    border-radius: 15%;
+    position:absolute;
+    z-index: 1000;
+    display: none;
+    color: #fff;
+}
+#header ul li ul.submenu a{
+    color: #fff;
+}
+#header ul li:hover ul.submenu{
+    display: block;
+}
+#header ul.submenu li a:hover
+#header ul.submenu li a.active
+{
+    background: #FF3B3F;
+    color: #fff;
+}
 section
 {
     position: relative;
@@ -192,46 +210,50 @@ section #text span
     position: center;
 }
 body.geral{
-    background: linear-gradient(100deg, #fff, #fff);
-    
+    background: #EFEFEF;
 }
 .sec{
     position: relative;
     padding: 100px;
     position: center;
     text-align: center;
-    text-shadow: 
-    -1.5px -1.5px 0px #fff, 
-    -1.5px 1.5px 0px #fff,      
-    1.5px -1.5px 0px #fff,    
-    1.5px 0px 0px #fff;
     margin-left: 20%;
     margin-right: 20%;
     
 }
 .sec h2{
-    font-size: 3.5em;
-    color: #002D64;
+    font-size: 3.0em;
+    color: #FF3B3F;
     margin-bottom: 10px;
     margin-left: 10%;
     margin-right: 10%;
 }
 .sec h3{
     font-size: 2.5em;
-    color: #002D64;
+    color: #FF3B3F;
     margin-bottom: 10px;
     margin-left: 10%;
     margin-right: 10%;
 }
 .sec p{
-    font-size: 2em;
-    color: #002D64;
+    font-size: 1.5em;
     margin-left: 10%;
     margin-right: 10%;
+    background: #CAEBF2;
+    color: #000;
+    padding: 20px;
+}
+.sec ul li{
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #CAEBF2;
+    color: #000;
+    padding: 20px;
+    list-style-type: none;
 }
 #btn
 {
- 
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
@@ -244,3 +266,6 @@ body.geral{
     transform: translateY(100px);
     position: relative;
 }
+
+
+
