@@ -283,3 +283,8 @@ button{
     padding: 0px 10px;
 }
 
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    margin: auto;
+  }
+
