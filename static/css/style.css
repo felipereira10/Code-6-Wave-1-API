@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Luckiest+Guy&display=swap');
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +9,6 @@
 }
 html{
     scroll-behavior: smooth;
-
 }
 body
 {
@@ -66,7 +64,7 @@ body
 }
 #header ul li ul.submenu li{
     display: flex;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
 }
 #header ul li ul.submenu{
@@ -134,8 +132,7 @@ section #text
              -2px 2px 0px #fff,      
               2px -2px 0px #fff,    
               2px 0px 0px #fff;
-    animation: fadeIn;
-    animation-duration: 1.5s;
+
 }
 section #text span
 {
@@ -158,8 +155,6 @@ section #text span
     border-radius: 40px;
     transform: translateY(100px);
     position: center;
-    animation: fadeIn;
-    animation-duration: 3s;
     
 }
 .sechome{
@@ -213,10 +208,9 @@ body.geral{
     background: #EFEFEF;
 }
 .sec{
-    border: 1px solid rgb(57, 51, 138);
+    border: 0px solid rgb(57, 51, 138);
+    padding: 80px 20px;
     position: relative;
-    padding: 100px 20px;
-    position: center;
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
@@ -286,6 +280,7 @@ button{
     text-align: center;
     background: #143887;
     color: #fff;
+    top: transparent;
 }
 .bubbles img{
     width: 50px;
@@ -306,18 +301,17 @@ button{
     }
     20%{
        
-        opacity: 0.5;
+        opacity: 0.6;
     }
-    70%{
+    60%{
         
-        opacity: 0.5;
+        opacity: 0.6;
     }
     90%{
-        transform: translateY(-280vh);
         opacity: 0;
     }
     100%{
-        transform: translateY(-280vh);
+        transform: translateY(-270vh);
         opacity: 0;
     }
 }
@@ -354,5 +348,3 @@ button{
 .bubbles img:nth-child(11){
     animation-delay: 1s;
 }
-
-
