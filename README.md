@@ -55,7 +55,7 @@ Desenvolvedor |  Paulo Afonso |[![Github](https://img.shields.io/badge/GitHub-10
 
 ## Primeiro Protótipo
 
-![.gif](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/Prot%C3%B3tipo.gif)
+![.gif](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/gif/Prot%C3%B3tipo.gif)
 
 ## Web site
 
