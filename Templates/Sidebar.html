@@ -9,17 +9,59 @@
 </head>
 <body>
     <div class="navigation">
-        <div class="menuToggle">
-
-        </div>
+        <div class="menuToggle"></div>
+            <ul>
+                <li class="list active">
+                    <a href="#" style="--clr:#FF3B3F;">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" style="--clr:#FF3B3F;">
+                        <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                        <span class="text">Equipe Scrum</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" style="--clr:#FF3B3F;">
+                        <span class="icon"><ion-icon name="podium-outline"></ion-icon></span>
+                        <span class="text">Pilares</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" style="--clr:#FF3B3F;">
+                        <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                        <span class="text">Ferramentas</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" style="--clr:#FF3B3F;">
+                        <span class="icon"><ion-icon name="eye-outline"></ion-icon></span>
+                        <span class="text">Na Prática</span>
+                    </a>
+                </li>
+            </ul>
     </div>
     <script>
         let menuToggle = document.querySelector('.menuToggle');
-        let navigation = document.querySelector('.navigation')
+        let navigation = document.querySelector('.navigation');
         menuToggle.onclick = function(){
             navigation.classList.toggle('active')
         }
+
+        let list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click',activeLink));
     </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 
 </body>

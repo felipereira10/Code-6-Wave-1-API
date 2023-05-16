@@ -27,11 +27,14 @@ body
     justify-content: space-between;
     align-items: center;
     font-size: 25px;
-    z-index: 10000;
+    z-index: 1000;
     opacity: 1;
 }
 #header .logo
-{
+{   
+    position: center;
+    padding: 20px;
+    z-index: 999;
     justify-content: right;
     color: #143887;
     font-weight: 500;
@@ -203,9 +206,6 @@ section #text span
     border-radius: 40px;
     transform: translateY(100px);
     position: center;
-}
-body.geral{
-    background: #EFEFEF;
 }
 .sec{
     border: 0px solid rgb(57, 51, 138);
