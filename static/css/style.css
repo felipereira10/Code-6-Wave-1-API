@@ -32,8 +32,7 @@ body
 }
 #header .logo
 {   
-    position: center;
-    padding: 20px;
+    padding: 100px;
     z-index: 999;
     justify-content: right;
     color: #143887;
