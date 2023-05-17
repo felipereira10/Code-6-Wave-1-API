@@ -62,7 +62,7 @@ body {
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: -1.5;
   text-align: left;
   background-color: #fff;
 }
@@ -5933,10 +5933,11 @@ button.close {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 15%;
+  width: 5%;
   color: #fff;
   text-align: center;
-  opacity: 0.5;
+  opacity: .1;
+  background: #000;
 }
 
 .carousel-control-prev:hover, .carousel-control-prev:focus,
@@ -5959,8 +5960,8 @@ button.close {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background: transparent no-repeat center center;
   background-size: 100% 100%;
 }
