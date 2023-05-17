@@ -186,7 +186,9 @@ body{
 .navigation.active ul li a .text{
     visibility: visible;
     opacity: 1;
+
 }
 .navigation ul li.active a .text{
     color: #fff;
+    color: #143887;
 }
