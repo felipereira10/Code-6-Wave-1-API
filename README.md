@@ -4,13 +4,13 @@
 Grupo destinado ao desenvolvimento da API 1° semestre, do curso de Análise e Desenvolvimento de Sistemas
 
 ## Objetivo do Projeto
-O objetivo deste Projeto é a criação de um web site que apresente todos os processos e artefatos da metodologia Scrum, com conceitos e fundamentos e referências.
+O objetivo deste Projeto é a criação de um web site que apresente todos os processos e artefatos da metodologia Scrum, com conceitos, fundamentos e referências.
 Para isso a equipe deve seguir os seguintes requisitos:
 | Requisitos Funcionais | Descrição |
 | --- | --- |
 | Linguagem Python | O sistema web deve ser desenvolvido utilizando a linguagem Python, que é um requisito da Fatec. |
 | Linguagem HTML e CSS | A interface do sistema web deve ser criada utilizando as linguagens HTML e CSS, que também são requisitos da Fatec. |
-| Framework Bootstrap | O framework Bootstrap deve ser utilizado para criar um design responsivo e estiloso para o sistema web. |
+| Framework Bootstrap| O framework Bootstrap deve ser utilizado para criar um design responsivo e estiloso para o sistema web. |
 | Apresentação via Github | O sistema web deve ser apresentado por meio do Github. |
 | Intuitivo e sem poluição de informações | O sistema web deve ser intuitivo e não ter poluição de informações. Os desenvolvedores devem ter como preocupação constante manter a interface limpa e organizada. Sugestões de controles serão bem-vindas e avaliadas. |
 | Sistema de avaliação | Deve ser criado um sistema de avaliação que contemple avaliação de processo, produto e conhecimento em disciplina, SM, PO e TD. |
@@ -21,7 +21,7 @@ Para isso a equipe deve seguir os seguintes requisitos:
 |Requisitos Não Funcionais
 :-----------------
 Documentação via Github
-Linguagem de programação Python,Javascript e Microframework Flask.
+Linguagem de programação Python, Javascript e Microframework Flask.
 Linguagem de marcação HTML e CSS.
 
 
