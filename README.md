@@ -69,4 +69,4 @@ Desenvolvedor |  Paulo Afonso |[![Github](https://img.shields.io/badge/GitHub-10
 
 ## Entrega Final 4° Sprint
 
-![.gif](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/gif/Scrum3.gif)
+![.gif](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/gif/scrum3.gif)
