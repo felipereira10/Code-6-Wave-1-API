@@ -21,8 +21,9 @@ Para isso a equipe deve seguir os seguintes requisitos:
 |Requisitos Não Funcionais
 :-----------------
 Documentação via Github
-Linguagem de programação Python, Javascript e Microframework Flask.
+Linguagem de programação Python, Javascript, Flask e bootstrap.
 Linguagem de marcação HTML e CSS.
+Ferramenta figma para prototipagem do site.
 
 
 ## Tecnologias Utilizadas
