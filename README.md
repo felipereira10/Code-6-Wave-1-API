@@ -65,3 +65,8 @@ Desenvolvedor |  Paulo Afonso |[![Github](https://img.shields.io/badge/GitHub-10
 ## Web Site 3° Sprint
 
 ![.gif](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/gif/Scrum2.gif)
+
+
+## Entrega Final 4° Sprint
+
+![.gif](https://github.com/felipereira10/API-Code-6-Wave-/blob/main/gif/Scrum2.gif)
